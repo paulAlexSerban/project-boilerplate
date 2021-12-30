@@ -1,0 +1,6 @@
+{
+  "generic.css": "styles/generic.style.css",
+  "generic.js": "scripts/generic.script.js",
+  "index.css": "styles/index.style.css",
+  "index.js": "scripts/index.script.js"
+}
