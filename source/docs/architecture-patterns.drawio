@@ -1,47 +1,64 @@
 <mxfile host="65bd71144e">
     <diagram id="-wzbGsMVc-z6QHt6eL8J" name="Page-1">
-        <mxGraphModel dx="1830" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3023" dy="-31" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="26" value="Presentation Layer&lt;br&gt;./source/app/ui" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="480" width="1590" height="900" as="geometry"/>
+                <mxCell id="42" value="" style="group;spacingLeft=10;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-800" y="1440" width="2580" height="1672" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="./source/app/ui/components&lt;br&gt;- addapted by following the MVC pattern" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=7;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="550" width="650" height="240" as="geometry"/>
+                <mxCell id="26" value="Presentation Layer&lt;br&gt;./source/app/ui" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="42" vertex="1">
+                    <mxGeometry y="3.97" width="1622.64" height="596.03" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                <mxCell id="27" value="Business Layer&lt;br&gt;./source/app/core" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="42" vertex="1">
+                    <mxGeometry x="1687.5471698113206" width="892.4528301886791" height="1672" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Services Layer&lt;br&gt;./source/app/services" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="42" vertex="1">
+                    <mxGeometry y="1187.48" width="1622.64" height="484.52" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Persistance Layer&lt;br&gt;./source/app/models&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Services%20Layer%26lt%3Bbr%26gt%3B.%2Fsource%2Fapp%2Fapis%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3BverticalAlign%3Dtop%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22280%22%20y%3D%222400%22%20width%3D%221590%22%20height%3D%22900%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="42" vertex="1">
+                    <mxGeometry x="1736.2264150943395" y="202.54631828978623" width="795.0943396226414" height="397.14964370546323" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Database Layer&lt;br&gt;./source/app/database" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="42" vertex="1">
+                    <mxGeometry y="639.4109263657957" width="1622.6415094339623" height="476.5795724465558" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="./src&lt;br&gt;&lt;br&gt;- keeps the frontend sourcefiles (HTML, CSS, JS)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="42" vertex="1">
+                    <mxGeometry x="162.26" y="281.98" width="407.74" height="288.02" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="./build&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;- keeps the frontend build files (Webpack, Gulp, Grunt, etc.)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="42" vertex="1">
+                    <mxGeometry x="162.25735849056593" y="43.68646080760095" width="405.66037735849056" height="178.71733966745845" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="42" source="32" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="./models&lt;br&gt;- templates" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="610" width="230" height="60" as="geometry"/>
+                <mxCell id="34" value="./dist&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;- keeps the 'DISTRIBUTION' files that are ready to be delivered to the user&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="42" vertex="1">
+                    <mxGeometry x="630" y="43.69" width="450" height="176.31" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="3">
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="42" source="33" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="133" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="./components" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="42" vertex="1">
+                    <mxGeometry x="180" y="351" width="370" height="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="group" parent="42" vertex="1" connectable="0">
+                    <mxGeometry x="190" y="380" width="340" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="./models&lt;br&gt;- templates" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="31" vertex="1">
+                    <mxGeometry x="97.14285714285712" width="138.77551020408163" height="59.999999999999986" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="31" source="4" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="./views&lt;br&gt;- atoms - molecules - organisms" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="720" width="230" height="60" as="geometry"/>
+                <mxCell id="4" value="./views&lt;br&gt;- atoms &lt;br&gt;- molecules &lt;br&gt;- organisms" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="31" vertex="1">
+                    <mxGeometry y="90" width="156.1224489795918" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="./controller&lt;br&gt;- pages" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="760" y="720" width="230" height="60" as="geometry"/>
+                <mxCell id="5" value="./controller&lt;br&gt;- pages" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" parent="31" vertex="1">
+                    <mxGeometry x="183.87928571428574" y="90" width="156.12071428571426" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="./source/app/ui/build" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=7;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="820" width="650" height="240" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="./source/app/ui/dist" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=7;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="1080" width="650" height="240" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="Business Layer&lt;br&gt;./source/app/core" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="1438" width="1590" height="900" as="geometry"/>
-                </mxCell>
-                <mxCell id="28" value="Services Layer&lt;br&gt;./source/app/apis" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="2400" width="1590" height="900" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="Persistance Layer&lt;br&gt;./source/app/models&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Services%20Layer%26lt%3Bbr%26gt%3B.%2Fsource%2Fapp%2Fapis%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3BverticalAlign%3Dtop%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22280%22%20y%3D%222400%22%20width%3D%221590%22%20height%3D%22900%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="3380" width="1590" height="900" as="geometry"/>
-                </mxCell>
-                <mxCell id="30" value="Database Layer&lt;br&gt;./source/app/database" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="4360.5" width="1590" height="900" as="geometry"/>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="31" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

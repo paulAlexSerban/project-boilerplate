@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  core:
+    build: './core'
+  database:
+    build: './database'
+  services:
+    build: './service'
+  ui:
+    build: './ui'
