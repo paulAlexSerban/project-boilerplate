@@ -1,0 +1,11 @@
+$z-i:
+  base,
+  header,
+  modal,
+  popup;
+
+@function z-index($element, $list: $z-i) {
+  $index: index($list, $element);
+
+  @return $index;
+}

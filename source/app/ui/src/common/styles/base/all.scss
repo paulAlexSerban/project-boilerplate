@@ -1,0 +1,14 @@
+@import "../abstracts/all.scss";
+
+// Import reset properties
+@import './reset/font-size.scss';
+@import "./reset/reset.scss";
+
+// Import typography styles
+@import './typography.scss';
+
+// Import utility classes
+@import './utilities.scss';
+
+// Import body base styles
+@import './body.scss';

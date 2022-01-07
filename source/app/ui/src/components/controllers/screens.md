@@ -1,1 +1,1 @@
-- this directory keeps the screens for a mobile app
+- this directory keeps the screens for Single Page Applications and Mobile Apps
