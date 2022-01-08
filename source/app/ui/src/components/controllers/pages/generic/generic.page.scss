@@ -1,3 +1,7 @@
+@import '../../../../common/styles/base/all.scss';
+@import '../../../models/templates/generic/generic.template.scss';
+
 html {
   background-color: green;
+  color: black;
 }

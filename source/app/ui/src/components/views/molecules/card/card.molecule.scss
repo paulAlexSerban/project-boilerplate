@@ -1,0 +1,17 @@
+@import '../../../../common/styles/abstracts/all.scss';
+
+@import '../../atoms/text/text.atom.scss';
+@import '../../atoms/image/image.atom.scss';
+@import '../../atoms/heading/heading.atom.scss';
+
+.wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "header"
+    "nav"
+    "content"
+    "sidebar"
+    "ad"
+    "footer";
+}
