@@ -1,0 +1,22 @@
+{
+  "name": "project-boilerplate",
+  "version": "1.0.0",
+  "description": "- This folder contains all the third-party assets used in the project: client supplied content, fonts, purchased photos or audio, etc. - There are no strict rules when organizing the contents of this folder. - RULE:   > If you did not create the file yourself, it goes in the assets folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulAlexSerban/project-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulAlexSerban/project-boilerplate/issues"
+  },
+  "homepage": "https://github.com/paulAlexSerban/project-boilerplate#readme",
+  "dependencies": {
+    "node": "^14.18.2"
+  }
+}
