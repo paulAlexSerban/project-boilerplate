@@ -8,7 +8,7 @@
         "airbnb-base"
     ],
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaVersion": 6,
         "sourceType": "module"
     },
     "rules": {
@@ -17,3 +17,4 @@
       "curly": "warn"
     }
 }
+
