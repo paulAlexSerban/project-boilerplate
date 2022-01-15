@@ -1,1 +1,0 @@
-console.log('install project dependencies and instances');

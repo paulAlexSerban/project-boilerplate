@@ -1,0 +1,20 @@
+{
+  "name": "project_boilerplate__setup",
+  "version": "1.0.0",
+  "description": "keeps the project setup and build tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "gulp install --gulpfile index.js",
+    "build": "gulp build --gulpfile index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0"
+  },
+  "dependencies": {
+    "gulp-exec": "^5.0.0"
+  }
+}
